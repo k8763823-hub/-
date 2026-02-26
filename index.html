@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школьный дневник</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+    * {
+            box-sizing: border-box;
+        }                 
+        body,
+        h1,
+        h2,
+        div,
+        p {
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+            padding: 35px 143px 95px;
+            font-family: 'StratosSkyeng', sans-serif;
+            color: #fff;
+            background: linear-gradient(130deg, rgba(173, 97, 255, 1) 0%, rgba(134, 119, 255, 1) 45%, rgba(0, 193, 255, 1) 100%);
+        }       
+
+        th,
+        td {
+            border: 1px solid white;
+            padding: 25px;
+        }
+
+
+        table {
+           border-collapse: collapse; 
+           width: 100%;
+        }
+
+        th {
+            background-color: #0f46d6;
+            font-size: 28px;
+        }
+
+        td {
+            font-size: 24px;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: normal;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            margin-left: 35px;          
+        }
+
+        div {
+            margin-top: 26px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Школьный дневник</h1>
+    <div>
+        <h2>Расписание уроков</h2>
+        <table>
+            <tr>
+                <th>День недели</th>
+                <th>Предмет</th>
+                <th>Домашнее задание</th>
+                <th>Кабинет</th>
+                <th>Время</th>
+            </tr>
+            <tr>
+                <td>Понедельник</td>
+                <td>Математика</td>
+                <td>Выполнить задание с 1 по 10 в учебнике</td>
+                <td>104</td>
+                <td>9:00</td>
+            </tr>
+            <tr>
+                <td>вторник</td>
+                <td>англискии</td>
+                <td>подготовится к уроку на след день</td>
+                <td>302</td>
+                <td>8:00</td>
+            </tr>
+            <tr>
+                <td>среда</td>
+                <td>история</td>
+                <td>написать сочинения великая китайская стена</td>
+                <td>208</td>
+                <td>10:00</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+      <h2>заметки</h2>
+      <ul>
+        <li>Не забыть поесть</li>
+        <li>не забыть посимтить зубы</li>
+        <Li>почесать репу</Li>
+        <li>показать проект по веб разработке</li>
+      </ul>
+    </div>
+    <div>
+        <h2>Любимын предметы</h2>
+        <ol>
+            <li>информатика</li>
+            <li>история</li>
+            <li>физкультура</li>
+        </ol>
+    </div>
+</body>
+
+</html>
